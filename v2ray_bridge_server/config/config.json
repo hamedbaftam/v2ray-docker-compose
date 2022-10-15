@@ -68,7 +68,7 @@
           "level": 1
         }
       },
-      
+
       {
         "Port": 1322,
         "Protocol": "shadowsocks",
@@ -2143,7 +2143,7 @@
     "settings": {
       "vnext": [
         {
-          "address": "135.181.22.40",
+          "address": "5.9.238.135",
           "port": 1013,
           "users": [
             {
