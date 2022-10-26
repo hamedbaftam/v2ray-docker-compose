@@ -1,0 +1,2399 @@
+{
+    "log": {
+      "access": "/var/log/v2ray/access.log",
+          "error": "/var/log/v2ray/error.log",
+      "loglevel": "warning"
+    },
+    "inbounds": [
+  
+  
+  
+  
+  
+  
+  {
+    "port": 1080,
+    "listen": "0.0.0.0",
+    "protocol": "http",
+    "settings": 
+  {
+    "accounts": [
+      {
+        "user": "my-username",
+        "pass": "my-password"
+      }
+    ],
+    "allowTransparent": false,
+    "userLevel": 1
+  
+  },
+    "streamSettings": {},
+    "tag": "inbound_tag_name",
+    "sniffing": {
+      "enabled": false,
+      "destOverride": ["http", "tls"]
+    },
+    "allocate": {
+      "strategy": "always",
+      "refresh": 5,
+      "concurrency": 3
+    }
+  },
+  
+    {
+      "Port": 1750,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000048498081",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1751,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000049727887",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1752,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000087131847",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1753,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000049984059",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1754,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000021902081",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1755,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000044941318",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1756,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000060954425",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1757,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000076122540",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1758,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000038240456",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1759,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000026203300",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1760,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000036410694",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1761,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000047278511",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1762,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000020128162",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1763,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000017455089",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1764,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000063024728",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1765,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000026933274",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1766,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000077811211",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1767,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000099431445",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1768,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000028323237",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1769,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000029339106",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1770,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000086340495",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1771,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000064965466",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1772,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000065511528",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1773,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000062186258",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1774,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000099458047",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1775,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000017979947",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1776,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000096138287",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1777,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000093632888",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1778,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000068292790",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1779,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000066193015",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1780,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000054895541",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1781,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000070780408",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1782,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000080007387",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1783,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000054066831",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1784,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000090625356",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1785,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000027341737",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1786,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000046960631",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1787,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000056111485",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1788,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000027515026",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1789,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000022086413",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1790,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000092003090",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1791,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000098565194",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1792,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000068090563",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1793,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000018712433",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1794,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000069424147",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1795,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000014474078",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1796,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000075764324",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1797,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000083516159",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1798,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000066971353",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1799,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000010951957",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1800,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000018043721",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1801,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000040627189",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1802,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000039282199",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1803,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000079538705",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1804,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000037362888",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1805,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000032604538",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1806,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000078649703",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1807,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000048989355",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1808,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000033272451",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1809,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000073108510",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1810,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000020252605",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1811,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000048160156",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1812,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000042828266",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1813,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000029889828",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1814,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000046275561",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1815,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000035987202",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1816,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000010435746",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1817,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000025071563",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1818,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000079014376",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1819,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000020689002",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1820,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000080729718",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1821,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000037225447",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1822,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000053565094",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1823,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000096661577",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1824,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000050707463",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1825,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000054767996",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1826,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000024906420",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1827,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000013118623",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1828,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000067160953",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1829,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000020571137",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1830,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000044879241",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1831,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000071670059",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1832,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000028653033",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1833,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000044138643",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1834,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000013653891",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1835,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000097902002",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1836,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000087298878",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1837,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000083909336",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1838,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000068572546",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1839,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000079509107",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1840,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000052107940",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1841,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000072906503",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1842,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000098830552",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1843,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000012199843",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1844,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000074152205",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1845,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000081161598",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1846,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000043967425",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1847,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000092381351",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1848,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000021431515",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1849,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000089189757",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1850,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000045903687",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1851,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000083558010",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1852,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000011103410",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1853,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000060695285",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1854,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000058958590",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1855,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000089163632",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1856,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000047033098",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1857,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000079648553",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1858,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000073718591",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1859,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000014088582",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1860,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000016105384",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1861,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000086711297",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1862,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000016659267",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1863,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000041286137",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1864,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000051069271",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1865,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000095515894",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1866,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000094497726",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1867,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000038845802",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1868,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000066403981",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1869,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000026412079",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1870,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000096212066",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1871,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000038221270",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1872,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000091430493",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1873,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000022923086",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1874,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000022649819",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1875,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000048898981",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1876,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000060006052",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1877,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000075117175",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1878,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000087944885",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1879,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000092251387",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1880,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000011373749",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1881,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000097401528",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1882,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000064192818",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1883,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000054004384",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1884,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000086557903",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1885,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000057851224",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1886,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000098264547",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1887,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000090293612",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1888,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000022921532",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1889,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000064103616",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1890,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000042277839",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1891,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000015690540",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1892,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000026325786",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1893,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000068547051",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1894,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000013958076",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1895,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000084253640",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1896,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000026657351",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1897,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000075718844",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1898,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000087190364",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1899,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000011992305",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1900,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000060599183",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1901,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000071554801",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1902,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000044500090",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1903,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000020061602",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1904,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000058092258",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1905,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000068763767",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1906,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000064543231",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1907,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000041277578",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1908,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000047508154",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1909,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000044167822",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1910,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000066081223",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1911,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000083617342",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1912,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000056904208",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1913,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000082847743",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1914,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000035931968",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1915,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000072801166",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1916,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000087653710",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1917,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000065894535",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1918,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000031190440",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1919,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000039254904",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1920,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000062393162",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1921,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000056354657",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1922,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000065034415",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1923,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000018389371",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1924,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000027183039",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1925,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000037543430",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1926,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000075889513",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1927,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000040519700",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1928,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000082661359",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1929,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000074796720",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1930,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000036640783",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1931,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000029410870",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1932,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000013312984",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1933,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000024868247",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1934,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000031858010",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1935,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000063440565",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1936,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000017694162",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1937,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000012236829",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1938,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000091607920",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1939,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000077962048",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1940,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000073856756",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1941,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000044395695",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1942,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000083776200",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1943,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000069819456",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1944,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000066656629",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1945,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000027821092",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1946,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000034878831",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1947,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000014797577",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1948,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000098507886",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1949,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000032425320",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1950,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000016471162",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1951,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000056243447",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1952,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000059790292",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1953,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000029651888",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1954,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000046916611",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1955,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000049769103",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1956,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000073069888",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1957,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000066338318",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1958,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000097123756",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1959,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000012742019",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1960,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000059397807",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1961,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000053326157",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1962,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000069858652",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1963,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000065758675",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1964,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000092422181",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1965,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000059921853",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1966,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000052538795",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1967,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000045210417",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1968,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000030601393",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1969,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000019278470",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1970,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000025778996",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1971,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000067509386",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1972,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000032842632",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1973,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000086782520",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1974,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000042460260",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1975,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000093973922",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1976,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000031847029",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1977,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000075581661",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1978,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000035270060",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1979,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000099452420",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1980,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000029992954",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1981,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000087131464",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1982,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000092242060",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1983,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000081509551",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1984,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000081141181",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1985,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000093371757",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1986,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000011479516",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1987,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000094350600",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1988,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000017217039",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1989,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000038164637",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1990,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000041841533",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1991,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000093775561",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1992,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000067652804",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1993,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000054121509",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1994,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000092731719",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1995,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000093085014",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1996,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000080331040",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1997,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000083038662",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1998,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000046815740",
+        "level": 1
+      }
+    },
+    {
+      "Port": 1999,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000045976000",
+        "level": 1
+      }
+    },
+    {
+      "Port": 2000,
+      "Protocol": "shadowsocks",
+      "Settings": {
+        "Method": "aes-128-gcm",
+        "Password": "00000089373173",
+        "level": 1
+      }
+    },
+  
+      
+      {
+        "port": 1013,
+        "listen": "0.0.0.0",
+        "protocol": "vmess",
+        "settings": {
+          "clients": [
+            {
+              "id": "cfc3ac34-a70d-424e-b43c-33049cf4bf31",
+              "alterId": 10,
+              "security": "auto"
+            }
+          ]
+        }
+      }
+    ],
+    "outbound": {
+      "tag": "agentout",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+              "address": "147.135.204.110",
+              "port": 22293,
+              "users": [
+                {
+                  "id": "749c8d52-789c-45e0-c47c-3e1f0876c8c4",
+                  "alterId": 0,
+                  "security": "auto"
+                }
+              ]
+            }
+        ]
+      },
+      "streamSettings": {
+          
+          "network": "ws",
+          "security": "none",
+          "wsSettings": {
+              "path": "/",
+              "headers": {}
+          }
+      
+  },
+      "mux": {
+        "enabled": true
+      }
+    },
+    "inboundDetour": null,
+    "outboundDetour": [
+      {
+        "protocol": "freedom",
+        "settings": {
+          "response": null
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "blockout"
+      }
+    ],
+    "dns": {
+      "servers": [
+        "8.8.8.8",
+        "8.8.4.4",
+        "localhost"
+      ]
+    },
+    "routing": {
+      "strategy": "rules",
+      "settings": {
+        "rules": [
+          {
+            "type": "field",
+            "domain": [
+              "regexp:.*\\.ir$"
+            ],
+            "outboundTag": "direct"
+          },
+          {
+            "type": "field",
+            "outboundTag": "Direct",
+            "ip": [
+              "geoip:ir",
+              "geoip:private"
+            ]
+          }
+        ]
+      }
+    }
+  }
